@@ -6,7 +6,9 @@ namespace NullableBoolCheck
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            bool? nullableBool = null;
+            Console.WriteLine(nullableBool == false ? "Wierd!" : "Logical!");
+            Console.ReadKey();
         }
     }
 }
